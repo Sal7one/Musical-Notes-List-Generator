@@ -1,0 +1,55 @@
+  
+  html, body{
+    height: 100%;
+  }
+    body {
+        font-family: "Ledger", sans-serif;
+        background-color: rgb(21, 53, 111);
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .note, .timer{
+        color: white;
+        font-size: 3.6vh;
+      }
+      .lastTime{
+        color: white;
+        font-size: 2vh;
+      }
+      .NoteHolder{
+       display: flex;
+       flex-direction: column;
+       align-content: space-around;
+       justify-content: space-around;
+       padding: 0;
+      }
+      
+      .btn{
+        padding: 20px;
+        font-size: 3.4vh;
+        font-weight: bold;
+        border-radius: 20px;
+        background-color: #ffa100;
+        color:black;
+      }
+      .par{
+        width: 100%; /* NEW */
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;  /* NEW */
+      }
+
+      .timerbutton{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+      }
+
+      h1{
+        margin-top: 0px;
+        padding: 0;
+      }
